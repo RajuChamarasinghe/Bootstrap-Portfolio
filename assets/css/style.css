@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    height: 100%;
+  }
+  .specialBackground  {
+    /* The image used */
+    background-image: url("../images/DustScratches.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+ 
+.pages-01 {
+    width: 210px;
+    height: 158px;
+    position: relative;
+}
+.header-02 {
+    width: 210px;
+    height: 45px;
+    position: absolute;
+    margin-top: -55px;
+}
+.img-1 {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 15px;
+  clear: both;
+  overflow: auto;
+}
+.div-5 {
+   /*position: fixed;*/
+    z-index: 1;
+    border-width: 8px !important; 
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+   .pages-01, .header-02 {
+    width: 100%;
+    height: auto;
+   }
+   .img-01 {
+    width: 100%;
+    height: auto;
+   }
+
+ }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+  .pages-01, .header-02 {
+    width: 80%;
+    height: auto;
+   }
+   .img-01 {
+    width: 80%;
+    height: auto;
+   }
+
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {  }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
